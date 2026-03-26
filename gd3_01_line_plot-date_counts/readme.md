@@ -10,7 +10,7 @@ Includes tooltip.
 Prompt :
 
 ```
-For the data.tsv file create a d3.js Javacsript function to generate a line plot of the input data.
+For the data.tsv file create a d3.js Javacsript function to generate a line plot of the input data 2025-FR-doc_counts.tsv.
 The function should have input parameters of the name of the input data file and the title of the plot.
 The first line of the input TSV file contains the names to use for the x and y axes.
 The line plot should plot the date versus the count.
