@@ -1,0 +1,431 @@
+{
+    "nodes": [
+        {
+            "id": "Alice"
+        },
+        {
+            "id": "Bill"
+        },
+        {
+            "id": "Caterpillar"
+        },
+        {
+            "id": "Cheshire"
+        },
+        {
+            "id": "Dinah"
+        },
+        {
+            "id": "Dodo"
+        },
+        {
+            "id": "Dormouse"
+        },
+        {
+            "id": "Footman"
+        },
+        {
+            "id": "Gryphon"
+        },
+        {
+            "id": "Hare"
+        },
+        {
+            "id": "Hatter"
+        },
+        {
+            "id": "King"
+        },
+        {
+            "id": "Knave"
+        },
+        {
+            "id": "Mary Ann"
+        },
+        {
+            "id": "Mouse"
+        },
+        {
+            "id": "Pigeon"
+        },
+        {
+            "id": "Queen"
+        },
+        {
+            "id": "Rabbit"
+        },
+        {
+            "id": "Turtle"
+        }
+    ],
+    "links": [
+        {
+            "source": "Dinah",
+            "target": "Dodo"
+        },
+        {
+            "source": "Bill",
+            "target": "Hatter"
+        },
+        {
+            "source": "Dormouse",
+            "target": "King"
+        },
+        {
+            "source": "Knave",
+            "target": "Turtle"
+        },
+        {
+            "source": "Bill",
+            "target": "Queen"
+        },
+        {
+            "source": "Alice",
+            "target": "Gryphon"
+        },
+        {
+            "source": "Bill",
+            "target": "Knave"
+        },
+        {
+            "source": "Mouse",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Hare",
+            "target": "King"
+        },
+        {
+            "source": "King",
+            "target": "Turtle"
+        },
+        {
+            "source": "Dinah",
+            "target": "Mary Ann"
+        },
+        {
+            "source": "Bill",
+            "target": "Gryphon"
+        },
+        {
+            "source": "Alice",
+            "target": "Mouse"
+        },
+        {
+            "source": "Knave",
+            "target": "Mouse"
+        },
+        {
+            "source": "Bill",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Hare",
+            "target": "Knave"
+        },
+        {
+            "source": "Alice",
+            "target": "Hatter"
+        },
+        {
+            "source": "Gryphon",
+            "target": "Mouse"
+        },
+        {
+            "source": "Cheshire",
+            "target": "Hare"
+        },
+        {
+            "source": "Hare",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Dormouse",
+            "target": "Knave"
+        },
+        {
+            "source": "Caterpillar",
+            "target": "Turtle"
+        },
+        {
+            "source": "Cheshire",
+            "target": "Footman"
+        },
+        {
+            "source": "Dodo",
+            "target": "Mouse"
+        },
+        {
+            "source": "Gryphon",
+            "target": "Knave"
+        },
+        {
+            "source": "Hare",
+            "target": "Hatter"
+        },
+        {
+            "source": "Knave",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Alice",
+            "target": "Dodo"
+        },
+        {
+            "source": "Alice",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Alice",
+            "target": "Caterpillar"
+        },
+        {
+            "source": "Alice",
+            "target": "Queen"
+        },
+        {
+            "source": "Alice",
+            "target": "King"
+        },
+        {
+            "source": "Gryphon",
+            "target": "Queen"
+        },
+        {
+            "source": "King",
+            "target": "Mouse"
+        },
+        {
+            "source": "Alice",
+            "target": "Bill"
+        },
+        {
+            "source": "Dormouse",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Caterpillar",
+            "target": "Pigeon"
+        },
+        {
+            "source": "Dormouse",
+            "target": "Hatter"
+        },
+        {
+            "source": "Rabbit",
+            "target": "Turtle"
+        },
+        {
+            "source": "Hatter",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Cheshire",
+            "target": "Hatter"
+        },
+        {
+            "source": "King",
+            "target": "Knave"
+        },
+        {
+            "source": "Dinah",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Hatter",
+            "target": "Knave"
+        },
+        {
+            "source": "Alice",
+            "target": "Hare"
+        },
+        {
+            "source": "Alice",
+            "target": "Cheshire"
+        },
+        {
+            "source": "Bill",
+            "target": "Mary Ann"
+        },
+        {
+            "source": "Gryphon",
+            "target": "Turtle"
+        },
+        {
+            "source": "Gryphon",
+            "target": "Hare"
+        },
+        {
+            "source": "King",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Bill",
+            "target": "Mouse"
+        },
+        {
+            "source": "Hatter",
+            "target": "King"
+        },
+        {
+            "source": "Queen",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Gryphon",
+            "target": "Hatter"
+        },
+        {
+            "source": "Alice",
+            "target": "Knave"
+        },
+        {
+            "source": "Alice",
+            "target": "Turtle"
+        },
+        {
+            "source": "Alice",
+            "target": "Pigeon"
+        },
+        {
+            "source": "Bill",
+            "target": "Hare"
+        },
+        {
+            "source": "Dormouse",
+            "target": "Hare"
+        },
+        {
+            "source": "Hare",
+            "target": "Queen"
+        },
+        {
+            "source": "Mouse",
+            "target": "Turtle"
+        },
+        {
+            "source": "Alice",
+            "target": "Dinah"
+        },
+        {
+            "source": "Cheshire",
+            "target": "Queen"
+        },
+        {
+            "source": "Caterpillar",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Caterpillar",
+            "target": "Gryphon"
+        },
+        {
+            "source": "Mouse",
+            "target": "Queen"
+        },
+        {
+            "source": "Cheshire",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Knave",
+            "target": "Queen"
+        },
+        {
+            "source": "Hatter",
+            "target": "Queen"
+        },
+        {
+            "source": "Hare",
+            "target": "Mouse"
+        },
+        {
+            "source": "Dodo",
+            "target": "Rabbit"
+        },
+        {
+            "source": "King",
+            "target": "Queen"
+        },
+        {
+            "source": "Hare",
+            "target": "Turtle"
+        },
+        {
+            "source": "Bill",
+            "target": "King"
+        },
+        {
+            "source": "Cheshire",
+            "target": "King"
+        },
+        {
+            "source": "Alice",
+            "target": "Mary Ann"
+        },
+        {
+            "source": "Bill",
+            "target": "Dormouse"
+        },
+        {
+            "source": "Dormouse",
+            "target": "Gryphon"
+        },
+        {
+            "source": "Alice",
+            "target": "Footman"
+        },
+        {
+            "source": "Footman",
+            "target": "Hatter"
+        },
+        {
+            "source": "Dormouse",
+            "target": "Queen"
+        },
+        {
+            "source": "Queen",
+            "target": "Turtle"
+        },
+        {
+            "source": "Cheshire",
+            "target": "Knave"
+        },
+        {
+            "source": "Footman",
+            "target": "Hare"
+        },
+        {
+            "source": "Gryphon",
+            "target": "Rabbit"
+        },
+        {
+            "source": "Bill",
+            "target": "Turtle"
+        },
+        {
+            "source": "Gryphon",
+            "target": "King"
+        },
+        {
+            "source": "Footman",
+            "target": "Queen"
+        },
+        {
+            "source": "Bill",
+            "target": "Dinah"
+        },
+        {
+            "source": "Dinah",
+            "target": "Mouse"
+        },
+        {
+            "source": "Alice",
+            "target": "Dormouse"
+        },
+        {
+            "source": "Mary Ann",
+            "target": "Rabbit"
+        }
+    ]
+}

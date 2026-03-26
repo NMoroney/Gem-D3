@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js Scatter Plot</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+        .axis text {
+            font-size: 10px;
+        }
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+            text-anchor: middle;
+        }
+    </style>
+</head>
+<body>
+    <h1>California XY Data Scatter Plot</h1>
+    <div id="scatterplot-container"></div>
+
+    <script src="scatterPlot.js"></script>
+    <script>
+        // Call the function to generate the scatter plot
+        // Ensure that 'california_xy.tsv' is in the same directory as this HTML file,
+        // or provide the correct path to your data file.
+        generateScatterPlot("california_xy.tsv", 600, 600);
+    </script>
+</body>
+</html>

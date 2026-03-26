@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3 Bar Chart</title>
+    <style>
+        .bar {
+            fill: steelblue;
+        }
+        .axis .domain,
+        .axis .tick line {
+            stroke: #ccc;
+        }
+        .axis .tick text {
+            fill: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="chart"></div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="barchart.js"></script>
+    <script>
+        drawBarChart('bay_cities-top_20_pop.tsv', 960, 500);
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kernel Density Plot</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="plot.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        svg {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Crow Wing Lengths Kernel Density Plot</h1>
+    <div id="plot-container"></div>
+    <script>
+        // Call the function to generate the plot
+        // The dataFileName is relative to the location of the HTML file
+        document.addEventListener('DOMContentLoaded', function() {
+            generateKdePlot("crow_wing_lengths.txt", 600, 400);
+        });
+    </script>
+</body>
+</html>

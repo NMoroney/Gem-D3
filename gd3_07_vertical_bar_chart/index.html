@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Cities Area Bar Plot</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="vertical_bar_plot.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        .bar {
+            fill: steelblue;
+        }
+        .axis text {
+            font-size: 10px;
+        }
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+        .x.label, .y.label {
+            font-size: 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>US Cities by Area (km<sup>2</sup>)</h1>
+    <div id="chart-container"></div>
+
+    <script>
+        // Call the function to generate the plot
+        // The data file is in the same directory as this HTML
+        // Set plot width and height as desired
+        createVerticalBarPlot("us_cities-areas_km2.tsv", 600, 400);
+    </script>
+</body>
+</html>

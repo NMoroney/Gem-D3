@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3 Bubble Chart</title>
+    <style>
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            width: auto;
+            height: auto;
+            padding: 8px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="bubble-chart"></div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="bubble_chart.js"></script>
+    <script>
+        createBubbleChart("bay_cities-lon_lat_pop.tsv", 800, 600);
+    </script>
+</body>
+</html>

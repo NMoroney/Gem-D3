@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js Line Plot</title>
+    <style>
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            width: 80px;
+            height: 40px;
+            padding: 2px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+	svg text {
+  	    font-family: sans-serif;
+	}
+    </style>
+</head>
+<body>
+    <div id="plot"></div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="plot.js"></script>
+    <script>
+        createLinePlot('2025-FR-doc_counts.tsv', 'Federal Register 2025 Daily Document Counts');
+    </script>
+</body>
+</html>

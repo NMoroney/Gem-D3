@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>D3.js Box Plot</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="d3_boxplot.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        svg {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box-and-Whisker Plot of Crow Wing Lengths</h1>
+    <div id="boxplot-container"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Call the function to generate the plot
+            // You can adjust the width and height as needed
+            generateBoxPlot('crow_wing_lengths.txt', 200, 400);
+        });
+    </script>
+</body>
+</html>
