@@ -5,6 +5,8 @@ A second version of date vs counts lin plot.
 
 Includes tooltip.
 
+<img src="2602-gd3-lin_plot-v2.jpg">
+
 Prompt :
 
 ```
@@ -15,6 +17,4 @@ The line plot should plot the date versus the count.
 It should also include a tooltip to provide label of individual date versus counts data points.
 The output plot should have axes labels and a title.
 ```
-
-<img src="2602-gd3-lin_plot-v2.jpg" width=400px>
 
