@@ -1,7 +1,7 @@
 
 ## Gem D3 : Heat Map
 
-Generate a heat map of Alice in Wonderland character mentions.
+Generate a heat map of Alice in Wonderland character mentions per chapter.
 
 <img src="2603-gd3-heat_map-alice-01.jpg">
 

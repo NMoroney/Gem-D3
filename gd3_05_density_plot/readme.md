@@ -3,6 +3,8 @@
 
 Gnerate a d3.js density plot for the crow wing length data.
 
+Data from [CORVIDATA](https://www.nature.com/articles/s41597-025-06471-x) (more [crow data](https://nmoroney.github.io/chirps/2026/260209-crows/index.html)).
+
 <img src="2602-gd3_density_plot-01.jpg" width=400px>
 
 Note the fill color ```#69b3a2``` is identical to [this example](https://d3-graph-gallery.com/graph/density_basic.html) of a d3.js density plot.

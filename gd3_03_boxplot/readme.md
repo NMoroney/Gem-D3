@@ -3,6 +3,8 @@
 
 Generate a box-and-whisker plot of the crow wing length data.
 
+Data from [CORVIDATA](https://www.nature.com/articles/s41597-025-06471-x) (more [crow data](https://nmoroney.github.io/chirps/2026/260209-crows/index.html)).
+
 <img src="2602-gd3-boxplot-01.jpg">
 
 The prompt :
