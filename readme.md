@@ -1,9 +1,11 @@
 
 ## Gem D3: A Gemini CLI generated library of D3.js visualizations
 
-Use Gemini CLI with an input dataset and a prompt to generate the JavaScript and example HTML for a specific d3.js visualization. 
+We used Gemini CLI with an input datasets and a prompts to generate the JavaScript and example HTML for a collection of d3.js visualizations. 
 
 For the initial examples, 10 datasets yielded 1,500 lines of code.
+
+The backstory for this repo is discussed in [this blog post](https://nmoroney.github.io/data/2026/260326_datasets_to_code/index.html).
 
 ---
 
