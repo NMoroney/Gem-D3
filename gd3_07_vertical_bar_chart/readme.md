@@ -24,3 +24,5 @@ Generate the JavaScript code and save to file vertical_bar_plot.js.
 Also generate an index.html file to call this javascript function. 
 Do not start any processes to install or invoke an http server.
 ```
+
+I must admit, I didn't know Alaskan cities were so large.
