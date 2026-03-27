@@ -1,7 +1,9 @@
 
 ## Line Plot : Date vs Counts - V2
 
-A second version of date vs counts lin plot.
+A basic line plot with dates on y-axis and counts on x-axis.
+
+Dataset is described and analyzed for anomalies [here](https://nmoroney.github.io/data/2026/260103_fr_2025/index.html).
 
 Includes tooltip.
 
