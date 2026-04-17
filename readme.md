@@ -18,7 +18,7 @@ The backstory for this repo is discussed in [this blog post](https://nmoroney.gi
 
 ---
 
-Thanks ```[T]``` for feedback that lead to adding ```loading="lazy"``` to thumbnails above.
+Thanks ```[T]``` for feedback that led to adding ```loading="lazy"``` to thumbnails above.
  
 
 
